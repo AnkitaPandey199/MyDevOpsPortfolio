@@ -1,0 +1,22 @@
+Here is a summary of today's session (Day 2) of the Multi-Cloud + DevOps Bootcamp:
+
+The session began with a discussion on how websites are built and hosted, covering the traditional approach of purchasing physical hardware, setting up servers, installing operating systems, web servers, and databases. The challenges of this approach were highlighted, including high costs, long setup times, equipment failures, limited scalability, and the need for 24/7 monitoring teams.
+
+The instructor then introduced Cloud Computing as the solution to these problems. Cloud was defined simply as accessing someone else's computing resources over the internet on a pay-per-use model. Major cloud providers discussed were AWS, Google Cloud Platform (GCP), and Azure.
+
+Key topics covered included:
+
+Data Center Selection - Students learned how to choose the right data center region based on latency using ping tests. The importance of selecting data centers in different geographic regions for high availability and disaster recovery was also explained.
+
+Types of Cloud - Public cloud, Private cloud, and Hybrid cloud (deployment models) were introduced. Service models IaaS (Infrastructure as a Service), PaaS (Platform as a Service), and SaaS (Software as a Service) were explained with practical examples.
+
+Hands-on Practical - The instructor demonstrated creating a Virtual Machine (VM) on Google Cloud Platform. This included selecting the operating system (Ubuntu 24.04 LTS), machine configuration, and networking settings. Different ways to create a VM were discussed, such as using the UI console, CLI/CloudShell, Terraform, REST API, and scripting.
+
+After creating the VM, the instructor connected to it via SSH, updated packages using the apt update command, installed Docker, and ran a containerized application on port 3000. This practical demonstration showed the real-world workflow of a Cloud/DevOps engineer.
+
+Virtual Machine names in different cloud platforms were also covered: EC2 in AWS, Compute Engine in GCP, and VM in Azure.
+
+The session ended with students being encouraged to practice regularly, generate interview questions using AI tools, and build confidence in answering scenario-based questions. Overall, the session was well-received by students as very informative and practical.
+
+
+docker run -d --restart unless-stopped --name win11react -p 3000:3000 blueedge/win11react:latest
